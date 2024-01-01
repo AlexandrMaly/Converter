@@ -10,8 +10,8 @@ public class Main {
         System.out.println();
     }
 
-    static void convertingKilometersToMiles (double kilometer){
-        double mi = kilometer*0.62137;
+    static void convertingKilometersToMiles(double kilometer) {
+        double mi = kilometer * 0.62137;
         System.out.format("%.3f", mi);
         System.out.println();
     }
