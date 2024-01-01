@@ -7,4 +7,10 @@ public class Main {
         double km = miles/0.62137;
         return km;
     }
+
+    static void convertingKilometersToMiles (double kilometer){
+        double mi = kilometer*0.62137;
+        System.out.format("%.3f", mi);
+        System.out.println();
+    }
 }
